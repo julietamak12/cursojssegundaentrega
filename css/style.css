@@ -1,0 +1,53 @@
+*reset{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+.card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: solid #a3a3a3 1px;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.boton{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 12px !important;
+    border: solid transparent 1px;
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+    background-color: black;
+    color: white;
+}
+
+.boton:hover{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    border: solid black 1px;
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+    background-color: white;
+    color: black;
+}
+
+
+
+.texto{
+    font-size: 12px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+section{
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
